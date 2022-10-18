@@ -15,5 +15,5 @@ public class Citricas extends Frutas {
 	public Citricas (int id, String nomeFruta, double precoFruta) {
 		super (id, nomeFruta, precoFruta);
 	}
-	
+
 }

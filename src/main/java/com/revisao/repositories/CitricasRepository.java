@@ -1,5 +1,9 @@
 package com.revisao.repositories;
 
-public class CitricasRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.revisao.model.Citricas;
+
+public interface CitricasRepository extends JpaRepository<Citricas, Long> {
+	
 }

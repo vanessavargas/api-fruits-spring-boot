@@ -14,3 +14,5 @@ Revisão de Java em monitoria
 
 ### Java acesso e manipulação de dados
 - CRUD (Create, Readme, Update e Delete), utilizando o framework Spring Boot
+
+##### Sugestão playlist - curso de Spring Boot - https://www.youtube.com/playlist?list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D

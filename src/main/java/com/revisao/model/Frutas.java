@@ -25,9 +25,17 @@ public class Frutas {
 	
 	public Frutas(int id, String nomeFruta, double precoFruta) {
 		super();
-		this.id = id;
+		this.setId(id);
 		this.nomeFruta = nomeFruta;
 		this.precoFruta = precoFruta;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	
