@@ -1,4 +1,4 @@
-package com.revisao.spring;
+package com.revisao;
 
 public class Principal {
 

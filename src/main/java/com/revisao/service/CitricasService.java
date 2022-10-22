@@ -9,32 +9,44 @@ import com.revisao.model.Citricas;
 import com.revisao.repositories.CitricasRepository;
 
 @Service
-public class CitricasService {
+public class CitricasService implements ICitricasService {
+	
 	@Autowired
 	private CitricasRepository citricaRepo;
 	
+	@Override
+	public Citricas getById(long id) { 
+		return citricaRepo.findById(id).get();
+	}
+	
 	//CREATE - SAVE
+	@Override
 	public Citricas save (Citricas citrica) {
 		return citricaRepo.save(citrica);
 	}
 	
 	//READ - FIND ALL
-	public List<Citricas> findAll() {
+	@Override
+	public List<Citricas> getAll() {
 		return citricaRepo.findAll();	
 		}
 	
 	// UPDATE
-	public Citricas update (Citricas citrica) {
-		findById(citrica.getId());
-		return citricaRepo.save(citrica);
+	@Override
+	public Citricas update (Citricas citrica, long id) {
+	
+		Citricas citricasExistente = citricaRepo.findById(id).get();
+		
+		citricasExistente.setNomeFruta(citrica.getNomeFruta());
+		citricasExistente.setPrecoFruta(citrica.getPrecoFruta());
+		
+		citricaRepo.save(citricasExistente);
+		return citricasExistente;
 	}
 	
-	private void findById(int id) {
-		// TODO Auto-generated method stub	
-	}
-
 	//DELETE
-	public void delete (Long id) {
+	@Override
+	public void delete (long id) {
 		citricaRepo.deleteById(id);
 	}
 }

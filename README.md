@@ -14,5 +14,7 @@ Revisão de Java em monitoria
 
 ### Java acesso e manipulação de dados
 - CRUD (Create, Readme, Update e Delete), utilizando o framework Spring Boot
+- Artigo sobre métodos hashCode, toString e equals: https://www.treinaweb.com.br/blog/para-que-servem-os-metodos-tostring-equals-e-gethashcode
+- Lombok: https://www.devmedia.com.br/uma-visao-sobre-o-projeto-lombok/28321
 
 ##### Sugestão playlist - curso de Spring Boot - https://www.youtube.com/playlist?list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D
