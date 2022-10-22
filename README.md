@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-Revisão de Java em monitoria
+Revisão de Java em monitoria - repositório foi criado para fins de estudos
 
 ### Java fundamentos
 
@@ -18,3 +18,7 @@ Revisão de Java em monitoria
 - Lombok: https://www.devmedia.com.br/uma-visao-sobre-o-projeto-lombok/28321
 
 ##### Sugestão playlist - curso de Spring Boot - https://www.youtube.com/playlist?list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D
+
+<hr>
+
+Feito com ❤️ por VanessaVargas
