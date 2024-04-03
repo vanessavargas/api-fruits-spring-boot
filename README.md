@@ -1,24 +1,25 @@
-# Projeto de monitoria - Spring Boot
+# API Fruits - Spring Boot
 
-Revisão de Spring Boot em monitoria - desenvolvimento do CRUD com base de dados no MySQL. Repositório criado para fins de estudos durante o programa Recode Pro, em Outubro de 2022.
 
-### Java fundamentos
+CRUD in Spring Boot with MySQL Database. October 2022.
 
-- Conceitos básicos (convenções - boas práticas, variáveis, tipos de dados, operadores lógicos, condicionais e relacionais, estruturas condicionais e de repetição): https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_ao_Java/Fundamentos
+### Java Fundamentals
+- Basic concepts (conventions - best practices, variables, data types, logical, conditional, and relational operators, conditional and loop structures): [Introduction to Java/Fundamentals](https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_ao_Java/Fundamentos)
 
-	- Tipos de variáveis: https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
+- Variable types: [Value and Reference Data Types in Java](https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293)
+  
+- Constructors: [Constructors in Java: First Steps](https://www.devmedia.com.br/construtores-em-java-primeiros-passos/28618)
 
-- Construtores: https://www.devmedia.com.br/construtores-em-java-primeiros-passos/28618
+- Inheritance and polymorphism.
 
-- Herança e poliformismo
+### Java data access and manipulation.
+- CRUD (Create, Read, Update, and Delete), utilizing the Spring Boot framework.
+- Article on hashCode, toString, and equals methods: [What are the purposes of the toString, equals, and hashCode methods?](//www.treinaweb.com.br/blog/para-que-servem-os-metodos-tostring-equals-e-gethashcode)
 
-### Java acesso e manipulação de dados
-- CRUD (Create, Readme, Update e Delete), utilizando o framework Spring Boot
-- Artigo sobre métodos hashCode, toString e equals: https://www.treinaweb.com.br/blog/para-que-servem-os-metodos-tostring-equals-e-gethashcode
-- Lombok: https://www.devmedia.com.br/uma-visao-sobre-o-projeto-lombok/28321
-
-##### Sugestão playlist - curso de Spring Boot - https://www.youtube.com/playlist?list=PL8iIphQOyG-DHLpEx1TPItqJamy08fs1D
+- Lombok: [An overview of the Lombok project](https://www.devmedia.com.br/uma-visao-sobre-o-projeto-lombok/28321)
 
 <hr>
 
-Feito com ❤️ por VanessaVargas
+<div align="center">
+Development with ❤️ by Vanessa Vargas
+</div>
